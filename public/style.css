@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: url(https://media.proglib.io/events/2020/06/05/139630d138c5138dcc0f1dfaf06b3846.jpg);
+}
+
+.message {
+  color: #5af1ff;
+}
+
+.chat {
+  box-shadow: 0px 0px 5px black;
+}
+
+.text {
+  color: white;
+}
+
+.date {
+  color: #f5cb42;
+}

@@ -12,6 +12,7 @@ app.get("/", async (req, res) => {
 
 const httpServer = app.listen(process.env.PORT ?? 3000);
 
+
 const wsServer = new ws.Server({
   server: httpServer,
 });

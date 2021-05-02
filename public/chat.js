@@ -11,6 +11,7 @@ form.addEventListener("submit", (event) => {
       JSON.stringify({
         nickname,
         message,
+        
       })
     );
   }

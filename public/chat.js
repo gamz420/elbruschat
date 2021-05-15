@@ -17,7 +17,6 @@ form.addEventListener("submit", (event) => {
   }
 });
 
-
 const chatContainer = document.querySelector("#chat");
 
 ws.addEventListener("message", ({ data }) => {

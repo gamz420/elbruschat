@@ -2,14 +2,18 @@
   "type": "module",
   "name": "WebSockets",
   "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
+  "description": "This chat",
+  "main": "server.js",
   "scripts": {
     "start-echo": "node server-echo.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "express",
+    "hbs",
+    "ws"
+  ],
+  "author": "Sammy the Shark <sammy@example.com>",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
